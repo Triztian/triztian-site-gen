@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -16,14 +16,18 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Brennan Dunn', 'http://brennandunn.com/'),
+          ('Kalzumeus', 'http://www.kalzumeus.com/blog/'),
+          ('Nathan Barry', 'http://nathanbarry.com/'),
+          ('IWTR', 'http://www.iwillteachyoutoberich.com/'),
+          ('Copyhackers', 'http://copyhackers.com/'),
+          ('Matt Might', 'http://matt.might.net/articles/'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
+          ('Github', 'https://github.com/Triztian'),)
+
+THEME = "/Users/Tristian/Projects/triztian-site-gen/ta-theme"
 
 DEFAULT_PAGINATION = 5
 
