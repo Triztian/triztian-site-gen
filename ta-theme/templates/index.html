@@ -1,57 +1,28 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/theme/css/hover-min.css" />
-    </head>
-    <body>
-        <header>
-            <div class="newsletter">
-                <div id="wufoo-m11wqo1703ecupr">
+{% extends 'base.html' %}
+{% block styles %}
+    <link rel="stylesheet" href="/theme/css/index.css" />
+{% endblock %}
+
+{% block content %}
+    <section class="whoami">
+        <h2>Hi!, I'm Tristian Azuara. I create <strong>information systems</strong></h2>
+        <h4>that help you reach your busines goals; <a href="#">learn how I do it</a>.</h4>
+    </section>
+
+    <section class="content">
+        <h1>Newest Articles</h1>
+        {% for article in articles %}
+            <article id="article-{{loop.index}}">
+                <div class="featured-image">
+                    <img src="http://placehold.it/250x200" alt="image"/>
                 </div>
-                <script type="text/javascript">var m11wqo1703ecupr;(function(d, t) {
-                    var s = d.createElement(t), options = {
-                    'userName':'tristian',
-                    'formHash':'m11wqo1703ecupr',
-                    'autoResize':true,
-                    'height':'320',
-                    'async':true,
-                    'host':'wufoo.com',
-                    'header':'show',
-                    'ssl':true};
-                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-                    s.onload = s.onreadystatechange = function() {
-                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                    try { m11wqo1703ecupr = new WufooForm();m11wqo1703ecupr.initialize(options);m11wqo1703ecupr.display(); } catch (e) {}};
-                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                    })(document, 'script');</script>
-            </div>
-            <div class="navigation">
-                <a href="/" class="logo"><img src="/theme/images/tristian-azuara-logo.png" alt="Tristian Azuara"/></a>
-                <nav>
-                    <ul>
-                        {% for page in pages %}
-                            <li class="button outline-outward"><a href="{{page.slug}}">{{page.title}}</a></li>
-                        {% endfor %}
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <section class="content">
-            {% for art in articles %}
-                <article id="article-">
-                    <div class="hexagon image">
-                    </div>
-                    <div class="content">
-                        <h1>{{ art.title }}</h1>
-                        <p>{{ art.summary }}</p>
-                        <a href="#">{{ art }}</a>
-                    </div>
-                </article>
-            {% endfor %}
-        </section>
-
-        <footer>
-        </footer>
-    </body>
-</html>
+                <div class="content">
+                    <h3 class="title">{{ article.title }}</h3>
+                    <h5 class="date">{{ article.date | strftime('%B %d, %Y') }}</h5>
+                    <p class="summary">{{ article.summary }}</p>
+                    <a href="{{ article.slug }}">Read more ...</a>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+{% endblock %}

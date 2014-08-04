@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/theme/css/normalize.css" />
+        <link rel="stylesheet" href="/theme/css/foundation.min.css" />
+        <link rel="stylesheet" href="/theme/css/hover-min.css" />
+        <link rel="stylesheet" href="/theme/css/base.css" />
+
+        {% block styles %}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <a href="/" class="logo"><img src="/theme/images/tristian-azuara-logo.png" alt="Tristian Azuara"/></a>
+                <nav>
+                    <ul>
+                        {% for page in pages %}
+                            <li><a href="/pages/{{page.slug}}.html" class="button outline-outward" >{{page.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+        <footer>
+            <div class="row">
+                <ul class="column large-12 medium-12 small-12 social">
+                    {% for channel, link in SOCIAL %}
+                        <li><a href="{{ link }}">{{ channel }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="row">
+                <div class="column large-4 categories">
+                    <h4>Categories</h4>
+                    <ul>
+                        {% for category, article in categories %}
+                            <li><a href="/category/{{category}}.html">{{category}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="column large-4 top-articles">
+                    <h4>Top Articles</h4>
+                    <ul>
+                        {% for article in articles %}
+                            <li><a href="{{article.slug}}.html ">{{ article.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="column large-4 medium-4 newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Join my newsletter to periodic content on improving the processes and operations of your business</p>
+                    <h6>No SPAM, I promise</h6>
+                    {% include 'wufoo-newsletter.html' %}
+
+                </div>
+            </div>
+            <div class="row">
+                &copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Tristian Azuara. All rights reserved.
+            </div>
+        </footer>
+    </body>
+</html>

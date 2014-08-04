@@ -21,7 +21,8 @@ LINKS =  (('Brennan Dunn', 'http://brennandunn.com/'),
           ('Nathan Barry', 'http://nathanbarry.com/'),
           ('IWTR', 'http://www.iwillteachyoutoberich.com/'),
           ('Copyhackers', 'http://copyhackers.com/'),
-          ('Matt Might', 'http://matt.might.net/articles/'))
+          ('Matt Might', 'http://matt.might.net/articles/'),
+          ('ConsultingSuccess', 'http://www.consultingsuccess.com/'))
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
