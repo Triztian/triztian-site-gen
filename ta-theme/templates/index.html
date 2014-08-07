@@ -14,7 +14,7 @@
         {% for article in articles %}
             <article id="article-{{loop.index}}">
                 <div class="featured-image">
-                    <img src="http://placehold.it/250x200" alt="image"/>
+                    <img src="{{article.thumbnail}}" alt="image" width="250" height="200"/>
                 </div>
                 <div class="content">
                     <h3 class="title">{{ article.title }}</h3>

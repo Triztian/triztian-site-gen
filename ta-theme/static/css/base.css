@@ -54,7 +54,7 @@ header {
 .navigation nav li {
     float: left;
     list-style-type: none;
-    margin: 0 25px;
+    margin: 0 0 0 40px;
 }
 
 .navigation nav li a {
@@ -72,6 +72,17 @@ section.content > h1 {
 
 footer .social {
     border-bottom: dotted 1px #414143;
+    padding-bottom: 5px;
+}
+
+footer .social li {
+    list-style-type: none;
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+footer .social a {
+    vertical-align: top;
 }
 
 .hex {

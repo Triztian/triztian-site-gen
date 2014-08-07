@@ -26,7 +26,8 @@ LINKS =  (('Brennan Dunn', 'http://brennandunn.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
-          ('Github', 'https://github.com/Triztian'),)
+          ('Github', 'https://github.com/Triztian'),
+          ('LinkedIn', 'http://www.linkedin.com/pub/tristian-azuara/24/5a0/3a2'))
 
 THEME = "/Users/Tristian/Projects/triztian-site-gen/ta-theme"
 
