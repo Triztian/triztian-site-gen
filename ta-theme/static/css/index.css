@@ -26,6 +26,32 @@
     float: left;
 }
 
+.content article .title {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+.content article .date {
+    margin-top: 0;
+}
+
 .content article .featured-image {
     margin-right: 30px;
+}
+
+.content article .tags {
+    padding: 0;
+    margin: 12px 0 0 0;
+    overflow: hidden;
+}
+
+.content article .tags .tag {
+    font-size: 75%;
+    list-style-type: none;
+    margin-right: 15px;
+    background-color: rgba(216, 212, 210, 0.6);
+    padding: 3px;
+}
+
+.content article .read-more {
+    overflow: hidden;
 }
