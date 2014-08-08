@@ -38,6 +38,8 @@ var rolesCanvas = document.getElementById('languages'),
         },
         "Graphic Design": {
             "Total": 2,
+            "Gimp": 0.5,
+            "Inkscape": 0.5
         }, 
         "Sys Admin": {
             "Total": 4,

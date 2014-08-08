@@ -47,6 +47,10 @@ header {
 .button.outline-outward:focus {
     color: #969187;
 }
+
+.navigation {
+    overflow: hidden;
+}
 .navigation > * {
     float: left;
 }

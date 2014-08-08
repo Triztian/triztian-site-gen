@@ -2,7 +2,7 @@ title: Personal Site (tristian.us)
 date: 2014-08-01
 author: Tristian Azuara
 slug:personal-site
-category: project
+category: system-implementation
 tags: portfolio,personal-site,planning
 summary: The design process of my personal site.
 thumbnail: http://i.imgur.com/sZmkn4i.png

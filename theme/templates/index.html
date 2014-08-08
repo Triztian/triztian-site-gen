@@ -11,7 +11,7 @@
 
     <section class="content">
         <h1>Newest Articles</h1>
-        {% for article in articles %}
+        {% for article in articles if article.category != 'project' %}
             <article id="article-{{loop.index}}">
                 <div class="featured-image">
                     <img src="{{article.thumbnail}}" alt="image" width="250" height="200"/>
