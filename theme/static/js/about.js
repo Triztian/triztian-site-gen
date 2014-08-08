@@ -3,14 +3,20 @@ var rolesCanvas = document.getElementById('languages'),
     rolesChart = new Chart(rolesCanvas.getContext('2d')),
     skillsChart = new Chart(skillsCanvas.getContext('2d')),
     skills = {
+        "Data Modeling": {
+            "Total": 4,
+            "MySQL": 4,
+            "PostgreSQL": 1,
+            "MS Access": 2
+        },
         "Backend Development": {
             "Total": 5,
-            "PHP": 3,
+            "PHP": 4,
             "Java Servlets (Tomcat)": 3,
             "Java Jersey": 2,
             "Python Django": 2,
             "Python webapp2": 1,
-            "Python TrytonERP": 3
+            "Python TrytonERP": 2
         },
         "Frontend Development": {
             "Total": 4,
