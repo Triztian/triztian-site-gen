@@ -29,7 +29,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
           ('Github', 'https://github.com/Triztian'),
           ('LinkedIn', 'http://www.linkedin.com/pub/tristian-azuara/24/5a0/3a2'))
 
-THEME = "/Users/Tristian/Projects/triztian-site-gen/ta-theme"
+THEME = "/Users/Tristian/Projects/triztian-site-gen/theme"
 
 DEFAULT_PAGINATION = 5
 
