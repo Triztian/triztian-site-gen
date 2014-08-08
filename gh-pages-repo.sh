@@ -11,8 +11,6 @@ echo "Commit message: $commit_msg"
 cd $OUTPUTDIR
 ls $(pwd)
 
-git init
-git remote add origin $GITHUB_REPO
 git add .
 git commit -m "$commit_msg"
 git push -f origin master
