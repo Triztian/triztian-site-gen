@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from jinja2 import Environment, Template, contextfilter, evalcontextfilter
 
 AUTHOR = 'Tristian Azuara'
 SITENAME = 'tristianazuara'
@@ -35,3 +36,10 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+@contextfilter
+def jinja_eval(context, template):
+    return Template(template).render(context)
+
+JINJA_FILTERS = {'jinjaeval': jinja_eval}

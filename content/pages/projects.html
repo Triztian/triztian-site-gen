@@ -2,6 +2,7 @@
 <html>
 	<head>
         <title>Success Stories</title>
+
         <meta name="author" content="Tristian Azuara" />
         <meta name="date" content="2012-07-09 22:28" />
         <meta name="category" content="tristian" />
@@ -9,5 +10,25 @@
         <meta name="tags" content="projects,work" />
 	</head>
 	<body>
+        <ul class="projects">
+            {% for cat, projects in categories if cat == 'project' %}
+            {% for project in projects %}
+                <li class="row project">
+                    <div class="column large-3">
+                        <img src="{{ project.thumbnail }}" alt="" />
+                    </div>
+                    <div class="column large-9">
+                        <h1>{{ project.title }}</h1>
+                        <p>{{ project.summary }}</p>
+                        <ul class="tags">
+                            {% for tag in project.tags %}
+                                 <li class="tag">{{ tag }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
 	</body>
 </html>

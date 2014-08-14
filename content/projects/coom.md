@@ -1,14 +1,13 @@
 title: COOM
 date: 2012-01-01
 slug: coom
-status:draft
 author: Tristian Azuara
 category: project
 thumbnail: http://i.imgur.com/a82fl0e.png
-tags: php,css,html,javascript,jquery,mysql
+tags: php,css,html,javascript,jquery,mysql,web-application
 summary: An inherited web application to process online spa cover orders.
 
-## Overview
+### Overview
 
 A company merger was in place and both companies had similiar technlogies due to being in the same market.
 I had to find a way to take advantage of the tech assets that the merge would bring in.
@@ -19,11 +18,11 @@ I was the right person for this project because I had built a similar web applic
 merging companies, thus I would be really familiar with the domain knowledge of the inherited application.
 
 
-## What problems got solved.
+### What problems got solved.
 
-There were a lot of problms that were resolved, the most important ones were:
+The most significant were:
 
- * Employees customer service workflow was greatly simplified because now they had access to the data in ONE
+ * Employees (customer service) workflow was greatly simplified because now they had access to the data in ONE
    application instead of requiring to log onto two different applications.
 
  * Data was centralized and it no longer had to be updated in two different places.
@@ -32,7 +31,7 @@ There were a lot of problms that were resolved, the most important ones were:
 
  * Customer was able to place their orders online, at any time (product highly configurable)
 
-## Results
+### Results
 
 This allowed for the CEO to onboard new customers by leverging the company's tech offering of visibility and 
 self-service. It also simplified customer service and production engineers workflow because data was now availble
