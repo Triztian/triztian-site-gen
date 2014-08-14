@@ -4,7 +4,7 @@ date: 2014-08-07
 modified: 2014-08-07
 slug: git-commands
 summary: Simple one-liners of git and bash commands.
-tags: git,bash,cli,mac-osx
+tags: git,bash,cli
 category: development
 thumbnail: http://www.git-scm.com/images/logo@2x.png
 

@@ -45,12 +45,17 @@ header {
 
 .button.outline-outward:hover,
 .button.outline-outward:focus {
-    color: #969187;
+    color: #8FC798;
+}
+
+.navigation, .navigation nav {
+    padding-top: 12px;
 }
 
 .navigation {
     overflow: hidden;
 }
+
 .navigation > * {
     float: left;
 }
@@ -62,12 +67,8 @@ header {
 }
 
 .navigation nav li a {
-    color: #969187;
     text-decoration: none;
-}
-
-.navigation nav li a:hover {
-    font-weight: bold;
+    color: #969187;
 }
 
 section.content > h1 {
