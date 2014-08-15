@@ -12,7 +12,7 @@ summary: An inherited web application to process online spa cover orders.
 A company merger was in place and both companies had similiar technlogies due to being in the same market.
 I had to find a way to take advantage of the tech assets that the merge would bring in.
 
-## Why I worked in this project.
+### Why I worked in this project.
 
 I was the right person for this project because I had built a similar web application for one of the 
 merging companies, thus I would be really familiar with the domain knowledge of the inherited application.

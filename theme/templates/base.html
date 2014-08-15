@@ -44,12 +44,14 @@
                         {% endfor %}
                     </ul>
                     <h4>Tags</h4>
-                    <ul>
+                    <p>
                         {% for tag, article in tags %}
-                            <li class="tag"><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+                            <a href="/tag/{{ tag }}">{{ tag }}</a>,
                         {% endfor %}
-                    </ul>
-                </div> <div class="column large-4 top-articles">
+                    </p>
+                </div> 
+                    
+                <div class="column large-4 top-articles">
                     <h4>Top Articles</h4>
                     <ul>
                         {% for article in articles[:5] %}
@@ -58,6 +60,7 @@
                     </ul>
 
                 </div>
+
                 <div class="column large-4 medium-4 newsletter">
                     <h4>Newsletter</h4>
                     <p>Join my newsletter to periodic content on improving the processes and operations of your business</p>

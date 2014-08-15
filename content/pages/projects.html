@@ -10,25 +10,25 @@
         <meta name="tags" content="projects,work" />
 	</head>
 	<body>
-        <ul class="projects">
+        <section class="projects">
             {% for cat, projects in categories if cat == 'project' %}
             {% for project in projects %}
-                <li class="row project">
+                <div class="row project">
                     <div class="column large-3">
                         <img src="{{ project.thumbnail }}" alt="" />
                     </div>
                     <div class="column large-9">
-                        <h1>{{ project.title }}</h1>
+                        <h1><a href="/{{ project.slug }}">{{ project.title }}</a></h1>
                         <p>{{ project.summary }}</p>
                         <ul class="tags">
                             {% for tag in project.tags %}
-                                 <li class="tag">{{ tag }}</li>
+                                 <li class="left tag">{{ tag }}</li>
                             {% endfor %}
                         </ul>
                     </div>
-                </li>
+                </div>
             {% endfor %}
             {% endfor %}
-        </ul>
+        </section>
 	</body>
 </html>
