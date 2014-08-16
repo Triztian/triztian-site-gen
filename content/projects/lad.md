@@ -3,7 +3,7 @@ date: 2013-08-01
 slug: lad
 category: project
 tags: javascript, html, css, less, backbone.js, bootstrap3, single-page-application
-thumbnail: http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png
+thumbnail: /theme/images/javascript-project-thumbnail.png
 summary: Single page application that allowed the loan agent to create the loan application
 
 ### Overview

@@ -1,9 +1,9 @@
-title: COOM
+title: Online Order Processing (Inherited)
 date: 2012-01-01
 slug: coom
 author: Tristian Azuara
 category: project
-thumbnail: http://i.imgur.com/a82fl0e.png
+thumbnail: /theme/images/php-project-thumbnail.png
 tags: php,css,html,javascript,jquery,mysql,web-application
 summary: An inherited web application to process online spa cover orders.
 

@@ -1,10 +1,10 @@
-title: TUBSDB
+title: Online Order Processing
 date: 2010-08-20
 slug: tubsdb
 category: project
 summary: Online database and order placing application.
 tags: java, servlets, tomcat, css, html, web-application, javascript, mysql
-thumbnail: http://www.vectorsland.com/imgd/l12866-java-eps-logo-99090.png
+thumbnail: /theme/images/java-project-thumbnail.png
 
 ### Overview
 
