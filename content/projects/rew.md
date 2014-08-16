@@ -26,10 +26,12 @@ to provide them with the warranty platform.
 
  * Remove the difficulty of determing if the warranty was applicable or not.
 
+ * The need to retype the order into the manufacturing system, the re-make order integrated witht the
+   manufacturing software.
+
 ### Results
 
 Reduced operation costs in fulfilling the warranties. Reduced false-positive warranty cases. 
 Improved the company's image because it proved that the company would take responsability of 
-it's mistakes and reimburse the customer or provide a remake.
+it's mistakes and reimburse the customer or provide a remake for the same order.
 
-All it reduced operation costs.
