@@ -1,10 +1,13 @@
 {% extends 'base.html' %}
 
 {% block styles %}
+    <link rel="stylesheet" href="/theme/css/page.css" />
     <link rel="stylesheet" href="/theme/css/{{page.slug}}.css" />
 {% endblock %}
 
 {% block content %}
-    <h1>{{ page.title}}</h1> 
-    {{ page.content | jinjaeval }}
+    <article class="page">
+        <h1 class="title">{{ page.title }}</h1> 
+        {{ page.content | jinjaeval }}
+    </article>
 {% endblock %}

@@ -8,6 +8,7 @@
         <meta name="category" content="tristian" />
         <meta name="summary" content="Portfolio of projects" />
         <meta name="tags" content="projects,work" />
+        <meta name="style" content="success-stories.css" />
 	</head>
 	<body>
         <section class="projects">
@@ -18,8 +19,8 @@
                         <img src="{{ project.thumbnail }}" alt="" />
                     </div>
                     <div class="column large-9">
-                        <h1><a href="/{{ project.slug }}">{{ project.title }}</a></h1>
-                        <p>{{ project.summary }}</p>
+                        <h2 class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></h2>
+                        <p class="summary">{{ project.summary }}</p>
                         <ul class="tags">
                             {% for tag in project.tags %}
                                  <li class="left tag">{{ tag }}</li>

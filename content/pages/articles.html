@@ -8,6 +8,31 @@
         <meta name="summary" content="Articles" />
         <meta name="tags" content="projects,work,career" />
 	</head>
+
 	<body>
+        <section class="content">
+            {% for article in articles if article.category != 'project' %}
+                <article id="article-{{loop.index}}">
+                    <div class="featured-image">
+                        <img src="{{article.thumbnail}}" alt="image" width="250" height="200"/>
+                    </div>
+                    <div class="content">
+                        <h3 class="title">{{ article.title }}</h3>
+                        <h6 class="date">{{ article.date }}</h5>
+                        <p class="summary">{{ article.summary }}</p>
+
+                        <div class="read-more">
+                            <a href="{{ article.slug }}" class="right">Read more ...</a>
+                        </div>
+
+                        <ul class="tags">
+                            {% for tag in article.tags %}
+                                <li class="tag left">{{tag}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </article>
+            {% endfor %}
+        </section>
 	</body>
 </html>

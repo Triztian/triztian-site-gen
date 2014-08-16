@@ -42,4 +42,6 @@ DEFAULT_PAGINATION = 5
 def jinja_eval(context, template):
     return Template(template).render(context)
 
-JINJA_FILTERS = {'jinjaeval': jinja_eval}
+JINJA_FILTERS = {
+    'jinjaeval': jinja_eval 
+}

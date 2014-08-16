@@ -39,7 +39,7 @@
                 <div class="column large-4 categories">
                     <h4>Categories</h4>
                     <ul>
-                        {% for category, article in categories %}
+                        {% for category, article in categories if category != 'project' %}
                             <li><a href="/category/{{category}}.html">{{category}}</a></li>
                         {% endfor %}
                     </ul>
@@ -54,7 +54,7 @@
                 <div class="column large-4 top-articles">
                     <h4>Top Articles</h4>
                     <ul>
-                        {% for article in articles[:5] %}
+                        {% for article in articles[:5] if article.category != 'project' %}
                             <li><a href="/{{article.slug}}">{{ article.title }}</a></li>
                         {% endfor %}
                     </ul>
