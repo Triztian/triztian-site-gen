@@ -3,3 +3,4 @@ __pycache__
 *.swo
 cache/
 .DS_Store
+output/

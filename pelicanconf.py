@@ -5,7 +5,7 @@ from jinja2 import Environment, Template, contextfilter, evalcontextfilter
 
 AUTHOR = 'Tristian Azuara'
 SITENAME = 'tristianazuara'
-SITEURL = ''
+SITEURL = 'triztian.github.io'
 
 TIMEZONE = 'America/Tijuana'
 
@@ -27,10 +27,10 @@ LINKS =  (('Brennan Dunn', 'http://brennandunn.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
-          ('Github', 'https://github.com/Triztian'),
+          ('Github', 'https://github.com/Triztian?tab=repositories'),
           ('LinkedIn', 'http://www.linkedin.com/pub/tristian-azuara/24/5a0/3a2'))
 
-THEME = "/Users/Tristian/Projects/triztian-site-gen/theme"
+THEME = "/Users/Tristian/Projects/triztian.github.io/theme"
 
 DEFAULT_PAGINATION = 5
 
