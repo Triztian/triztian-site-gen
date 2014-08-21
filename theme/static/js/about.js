@@ -28,7 +28,7 @@ var rolesCanvas = document.getElementById('languages'),
             "jQuery": 4,
             "Angular.js": 0.3,
             "Twitter Bootstrap 3.0": 1.2,
-            "Zurb Foundation":  0.8
+            "Zurb Foundation":  1
         }, 
         'Mobile Development': {
             "Total": 2,
@@ -44,8 +44,9 @@ var rolesCanvas = document.getElementById('languages'),
         },
         "Graphic Design": {
             "Total": 2,
-            "Gimp": 0.5,
-            "Inkscape": 0.5
+            "Gimp": 0.8,
+            "Inkscape": 0.5,
+            "Photoship": 0.3
         }, 
         "Sys Admin": {
             "Total": 4,
