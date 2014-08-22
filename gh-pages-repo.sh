@@ -10,6 +10,7 @@ echo "Commit message: $commit_msg"
 
 cd $OUTPUTDIR
 ls $(pwd)
+echo "tristian.us" > CNAME
 
 git init
 git remote add origin $GITHUB_REPO

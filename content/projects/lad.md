@@ -3,7 +3,7 @@ author: Tristian Azuara
 date: 2013-08-01
 slug: lad
 category: project
-tags: javascript, html, css, less, backbone.js, bootstrap3, single-page-application
+tags: Javascript, HTML, CSS, LESS, Backbone.js, Bootstrap3, single-page-application
 thumbnail: /theme/images/javascript-project-thumbnail.png
 summary: Single page application that allowed the loan agent to create the loan application
 

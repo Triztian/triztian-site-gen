@@ -40,13 +40,15 @@ TAGS = {
     'Wordpress': 'https://wordpress.org/',
     'RequireJS': 'http://requirejs.org/',
     'Backbone.js': 'http://backbonejs.org/',
+    'Bootstrap3': 'http://getbootstrap.com/',
     'matplotlib': 'http://matplotlib.org/',
     'chart.js': 'http://www.chartjs.org/',
     'Tomcat': 'https://tomcat.apache.org/',
     'Jersey': 'https://jersey.java.net/',
     'MySQL': 'https://www.mysql.com/',
     'Grunt.js': 'http://gruntjs.com/',
-    'handlebars.js': 'http://handlebarsjs.com/'
+    'handlebars.js': 'http://handlebarsjs.com/', 
+    'Zurb-foundation': 'http://foundation.zurb.com/'
 }
 
 THEME = "/Users/Tristian/Projects/triztian.github.io/theme"

@@ -22,7 +22,7 @@ var rolesCanvas = document.getElementById('languages'),
             "Total": 4,
             "Javascript": 4,
             "CSS": 4,
-            "HTML5": 3.5,
+            "HTML5": 4,
             "Backbone.js": 1.2,
             "Underscore.js":1.2,
             "jQuery": 4,
@@ -46,7 +46,7 @@ var rolesCanvas = document.getElementById('languages'),
             "Total": 2,
             "Gimp": 0.8,
             "Inkscape": 0.5,
-            "Photoship": 0.3
+            "Photoshop": 0.1
         }, 
         "Sys Admin": {
             "Total": 4,
