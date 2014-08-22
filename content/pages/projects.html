@@ -16,14 +16,20 @@
             {% for project in projects %}
                 <div class="row project">
                     <div class="column large-3">
-                        <img src="{{ project.thumbnail }}" alt="" />
+                        <img src="{{ project.thumbnail }}" alt="Thumbnail" />
                     </div>
                     <div class="column large-9">
                         <h2 class="title"><a href="/{{ project.slug }}">{{ project.title }}</a></h2>
                         <p class="summary">{{ project.summary }}</p>
                         <ul class="tags">
                             {% for tag in project.tags %}
-                                 <li class="left tag">{{ tag }}</li>
+                            <li class="left tag">
+                                {% if tag in TAGS %}
+                                <a href="{{ TAGS[tag] }}">{{ tag }}</a>
+                                {% else %}
+                                {{ tag }}
+                                {% endif %}
+                            </li>
                             {% endfor %}
                         </ul>
                     </div>

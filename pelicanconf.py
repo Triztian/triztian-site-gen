@@ -30,6 +30,25 @@ SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
           ('Github', 'https://github.com/Triztian?tab=repositories'),
           ('LinkedIn', 'http://www.linkedin.com/pub/tristian-azuara/24/5a0/3a2'))
 
+TAGS = {
+    'Javascript': 'https://en.wikipedia.org/wiki/JavaScript',
+    'Python': 'https://www.python.org/',
+    'HTML': 'http://www.html5rocks.com/en/',
+    'TrytonERP': 'http://www.tryton.org/',
+    'Java': 'https://www.java.com/en/download/whatis_java.jsp',
+    'PHP': 'http://php.net/',
+    'Wordpress': 'https://wordpress.org/',
+    'RequireJS': 'http://requirejs.org/',
+    'Backbone.js': 'http://backbonejs.org/',
+    'matplotlib': 'http://matplotlib.org/',
+    'chart.js': 'http://www.chartjs.org/',
+    'Tomcat': 'https://tomcat.apache.org/',
+    'Jersey': 'https://jersey.java.net/',
+    'MySQL': 'https://www.mysql.com/',
+    'Grunt.js': 'http://gruntjs.com/',
+    'handlebars.js': 'http://handlebarsjs.com/'
+}
+
 THEME = "/Users/Tristian/Projects/triztian.github.io/theme"
 
 DEFAULT_PAGINATION = 5

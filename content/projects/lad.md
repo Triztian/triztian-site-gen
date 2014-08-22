@@ -1,4 +1,5 @@
 title: Loan Application and Disbursement
+author: Tristian Azuara
 date: 2013-08-01
 slug: lad
 category: project
