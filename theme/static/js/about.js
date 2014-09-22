@@ -14,27 +14,28 @@ var rolesCanvas = document.getElementById('languages'),
             "PHP": 4,
             "Java Servlets (Tomcat)": 3,
             "Java Jersey": 2,
-            "Python Django": 2,
-            "Python webapp2": 1,
+            "Python Django": 2.5,
+            "Python webapp2": 2,
             "Python TrytonERP": 2
         },
         "Frontend Development": {
-            "Total": 4,
-            "Javascript": 4,
-            "CSS": 4,
-            "HTML5": 4,
+            "Total": 5,
+            "Javascript": 5,
+            "CSS": 5,
+            "HTML5": 5,
             "Backbone.js": 1.2,
             "Underscore.js":1.2,
-            "jQuery": 4,
-            "Angular.js": 0.3,
-            "Twitter Bootstrap 3.0": 1.2,
-            "Zurb Foundation":  1
+            "jQuery": 5,
+            "Angular.js": 1.5,
+            "Twitter Bootstrap 3.0": 2,
+            "Zurb Foundation":  2.5
         }, 
         'Mobile Development': {
             "Total": 2,
-            "Android": 1.2,
-            "iOS": 0.2,
-            "Hybrid Apps (Apache Cordova)": 0.2
+            "Android": 3,
+            "iOS": 1,
+            "BlackBerry": 0.5,
+            "Hybrid Apps (Apache Cordova)": 2
         },
         "UX/UI Design": {
             "Total": 4,
