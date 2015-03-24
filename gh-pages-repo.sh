@@ -13,7 +13,6 @@ ls $(pwd)
 echo "tristian.us" > CNAME
 
 git init
-git remote add origin $GITHUB_REPO
 git add .
 git commit -m "$commit_msg"
 git push -f origin master 
