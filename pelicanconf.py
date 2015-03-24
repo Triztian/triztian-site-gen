@@ -7,7 +7,7 @@ AUTHOR = 'Tristian Azuara'
 SITENAME = 'tristianazuara'
 SITEURL = 'triztian.github.io'
 
-TIMEZONE = 'America/Tijuana'
+TIMEZONE = 'America/Phoenix'
 
 DEFAULT_LANG = 'en'
 
