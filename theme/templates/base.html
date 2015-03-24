@@ -17,7 +17,7 @@
                 <nav>
                     <ul>
                         {% for page in pages %}
-                            <li><a href="/pages/{{page.slug}}.html" class="button outline-outward" >{{page.title}}</a></li>
+                            <li><a href="/pages/{{page.slug}}.html" class="button hvr-underline-from-center">{{page.title}}</a></li>
                         {% endfor %}
                     </ul>
                 </nav>
@@ -31,7 +31,7 @@
             <div class="row">
                 <ul class="column large-12 medium-12 small-12 social">
                     {% for channel, link in SOCIAL %}
-                        <li class="fa fa-{{ channel | lower }}"><a href="{{ link }}" class=""> {{ channel }}</a></li>
+                        <li class="fa fa-{{ channel | lower | replace (' ', '-') }}"><a href="{{ link }}" class=""> {{ channel }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
@@ -43,12 +43,6 @@
                             <li><a href="/category/{{category}}.html">{{category}}</a></li>
                         {% endfor %}
                     </ul>
-                    <h4>Tags</h4>
-                    <p>
-                        {% for tag, article in tags %}
-                            <a href="/tag/{{ tag }}">{{ tag }}</a>,
-                        {% endfor %}
-                    </p>
                 </div> 
                     
                 <div class="column large-4 top-articles">

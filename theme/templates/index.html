@@ -5,33 +5,33 @@
 
 {% block content %}
     <section class="whoami">
-        <h2>Hi!, I'm Tristian Azuara. I create <strong>information systems</strong></h2>
-        <h4>that help you reach your business goals</h4>
+        <h2><strong>I'm Tristian Azuara </strong></h2>
+        <p>I create information systems that add value to businesses using technology. 
+        I design, implement, test and improve new or existing systems and processes.</p>
+        <a href="pages/about.html">More about me</a>
     </section>
 
-    <section class="content">
-        <h1>Newest Articles</h1>
-        {% for article in articles if article.category != 'project' %}
-            <article id="article-{{loop.index}}">
-                <div class="featured-image">
-                    <img src="{{article.thumbnail}}" alt="image" width="250" height="200"/>
-                </div>
-                <div class="content">
-                    <h3 class="title">{{ article.title }}</h3>
-                    <h6 class="date">{{ article.date | strftime('%B %d, %Y') }}</h5>
-                    <p class="summary">{{ article.summary }}</p>
+    <section class="domains row">
+        <div class="domain column small-4">
+            <h2>Backend</h2>
+            <p>I've designed, planned and implemented back-end systems that automated manufacturing processes, 
+            integrated ERP solutions and exposed data as REST based APIs.</p>
 
-                    <div class="read-more">
-                        <a href="{{ article.slug }}" class="right">Read more ...</a>
-                    </div>
+            <a href="pages/success-stories.html?tags=backend,web-application">Projects</a>
+        </div>
 
-                    <ul class="tags">
-                        {% for tag in article.tags %}
-                            <li class="tag left">{{tag}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </article>
-        {% endfor %}
+        <div class="domain column small-4">
+            <h2>Front-end</h2>
+            <p>I've developed Single Page applications that have worked on multiple browsers and for mobile devices.</p>
+
+            <a href="pages/success-stories.html?tags=frontend">Projects</a>
+        </div>
+        
+        <div class="domain column small-4">
+            <h2>Mobile</h2>
+            <p>I've worked on several MVP apps, where I defined, designed and implemented the core functionality, improved UI and UX as well as performance.</p>
+
+            <a href="pages/success-stories.html?tags=mobile">Projects</a>
+        </div>
     </section>
 {% endblock %}

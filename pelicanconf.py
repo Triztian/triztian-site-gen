@@ -27,7 +27,8 @@ LINKS =  (('Brennan Dunn', 'http://brennandunn.com/'),
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/aztristian'),
-          ('Github', 'https://github.com/Triztian?tab=repositories'),)
+          ('Github', 'https://github.com/Triztian?tab=repositories'),
+          ('Stack Exchange', 'http://careers.stackoverflow.com/tristian'))
           
 
 TAGS = {

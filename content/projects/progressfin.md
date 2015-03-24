@@ -1,6 +1,6 @@
 title: Translation and Theme Customistation
 author: Tristian Azuara
-date: 2014-06-10
+date: 2013-10-10
 slug: progressfin.com
 summary: Customisation and billingual implementation of a Wordpress site.
 category: project

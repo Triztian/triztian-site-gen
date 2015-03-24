@@ -11,6 +11,19 @@
         <meta name="style" content="success-stories.css" />
 	</head>
 	<body>
+
+        <form method="GET" action="/pages/success-stories.html">
+            <h3>Filter projects</h3>
+
+            <div>
+                <input type="text" name="language" placeholder="Languages" />
+                <input type="text" name="platform" placeholder="Platforms" />
+                <input type="search" name="search" placeholder="Keywords" />
+
+                <input type="submit" name="submit" value="Search" />
+            </div>
+        </form>
+
         <section class="projects">
             {% for cat, projects in categories if cat == 'project' %}
             {% for project in projects %}
