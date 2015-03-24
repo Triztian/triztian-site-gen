@@ -1,4 +1,4 @@
-title: Translation and Theme Customistation
+title: Translation and Theme Customisation
 author: Tristian Azuara
 date: 2013-10-10
 slug: progressfin.com
