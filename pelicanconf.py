@@ -5,7 +5,7 @@ from jinja2 import Environment, Template, contextfilter, evalcontextfilter
 
 AUTHOR = 'Tristian Azuara'
 SITENAME = 'tristianazuara'
-SITEURL = 'triztian.github.io'
+SITEURL = 'tristian.us'
 
 TIMEZONE = 'America/Phoenix'
 
